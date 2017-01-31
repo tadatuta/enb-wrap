@@ -1,0 +1,37 @@
+{
+  "author": "Vladimir Grinenko <i@tadatuta.com>",
+  "description": "ENB plugin to wrap a file into arbitrary content",
+  "name": "enb-wrap",
+  "version": "0.1.0",
+  "repository": "git://github.com/tadatuta/enb-wrap",
+  "homepage": "https://github.com/tadatuta/enb-wrap",
+  "bugs": "https://github.com/tadatuta/enb-wrap/issues",
+  "licenses": [
+    {
+      "type": "MPL-2.0",
+      "url": "https://github.com/tadatuta/enb-wrap/blob/master/LICENSE.txt"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Vladimir Grinenko",
+      "email": "i@tadatuta.com"
+    }
+  ],
+  "engines": {
+    "node": ">= 4"
+  },
+  "peerDependencies": {
+    "enb": ">= 0.12.0 < 2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "enb": ">= 0.12.0 < 2.0.0",
+    "eslint": "^3.14.1",
+    "eslint-config-pedant": "^0.8.0"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ."
+  }
+}
